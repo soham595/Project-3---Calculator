@@ -2,34 +2,46 @@
 <html lang="en">
 
 <head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>
-        Your Title here
+      Simple calculator
     </title>
-    <meta content="" name="description">
-    <meta content="" name="author">
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/skeleton.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="images/favicon.png" rel="icon" type="image/png">
+   <link href="images/favicon.png" rel="icon" type="image/jpg" >
+
 </head>
-
 <body>
-    <!-- Content
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div id="fullcal">
+  <h1>Basic Electronics</h1>
+  <h3>Simple Calculator</h3>
+  <div class="top">
+    <div class="disp">
+      <input type="text" id="num" style="width:99%" readonly><br>
+      </div>
+      </div>
+    <div class="content">
+      <br><br>
+      <input type="button" id="left" value="7" onclick="output(7)">
+      <input type="button" id="left" value="8" onclick="output(8)">
+      <input type="button" id="left" value="9" onclick="output(9)">
+      <input type="button" id="right" value="/" onclick="output('/')">
+      <input type="button" id="left" value="4" onclick="output(4)">
+      <input type="button" id="left" value="5" onclick="output(5)">
+      <input type="button" id="left" value="6" onclick="output(6)">
+      <input type="button" id="right" value="-" onclick="output('-')">
+      <input type="button" id="left" value="1" onclick="output(1)">
+      <input type="button" id="left" value="2"  onclick="output(2)">
+      <input type="button" id="left" value="3" onclick="output(3)">
+      <input type="button" id="right" value="+" onclick="output('+')">
+      <input type="button" id="left" value="0" onclick="output(0)">
+      <input type="button" id="left" value="." onclick="output('.')">
+      <input type="button" id="left" value="=" onclick="calc();">
+      <input type="button" id="right" value="*" onclick="output('*')">
+      <input type="button" id="ac" value="AC" onclick="outputClear();">
+    </div>
 
-
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
 </body>
-
-</html>
+<script type="text/javascript" src="js/script.js"></script>
+<html>
