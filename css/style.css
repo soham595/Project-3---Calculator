@@ -39,10 +39,14 @@ h3 {
   font-size: 15px;
   font-family: sans-serif;
   font-style: italic;
-  color: #263238 ;
+  color: white;
   text-align: center;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
+}
+
+.disp {
+  background-color: black;
 }
 
 .content {
